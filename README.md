@@ -67,11 +67,11 @@ and then the Cypress GUI will open like this,
 
 - Then you can choose your desired browser
 
-<img width="890" alt="image (3)" src="https://user-images.githubusercontent.com/125074291/219224153-5fcfcba2-f4a6-41a0-90b1-181d18a75dd8.png">
+<img width="890" alt="image (4)" src="https://user-images.githubusercontent.com/125074291/219239135-e05973da-77f8-43e2-bd26-c2a77e8f72cb.png">
 
 ### - Choose some of the test cases that you want to run
 
-I made 2 types of test cases, the first for __API testing__ and the second for __Login testing__ on website https://www.saucedemo.com/
+I made 2 types of test cases, the first for __API testing__ and the second for __Login testing__ on website https://www.saucedemo.com/. I created both of these types of test cases using Cypress
 
 <img width="959" alt="image (5)" src="https://user-images.githubusercontent.com/125074291/219224922-7eda2da6-e30c-43f4-a79b-416d502c1121.png">
 
