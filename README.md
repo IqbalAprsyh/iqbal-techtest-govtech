@@ -1,4 +1,4 @@
-# Setup Cypress with Node.js & Run the Docker images
+# Setup Cypress with Node.js & Run with Docker images
 This will show you how to run a Cypress testcase with the Cypress GUI and run it with a Docker Container
 
 ## Topics
