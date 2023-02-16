@@ -88,28 +88,18 @@ This will explain how you run my test after clone my repo from github
 If you already cloned my repo, you can directly build the Docker image using this command
 
 ```
-docker build -t cypress-included-v9.2.0
-```
-or you can use it too
-
-```
 docker build -t cypress-included-v12.5.1
 ```
 
 After finish the build then run it using this command
 
-__PowerShell__
+__In CMD / PowerShell__
 
 ```
-docker run -it -v ${PWD}:/e2e -w /e2e cypress/included:12.5.1
+docker run -it cypress-included-v12.5.1
 ```
 
-__CMD__
-
-```
-docker run -it -v %cd%:/e2e -w /e2e cypress/included:12.5.1
-```
-When running the docker image via CMD or PowerShell it is very prone to failure, I suggest you to run it using the [Docker Desktop](https://www.docker.com/products/docker-desktop/) software
+When running the docker image via CMD it is very prone to failure, I suggest you to run it using the [Docker Desktop](https://www.docker.com/products/docker-desktop/) software
 
 ## Running a Docker container using my image pulled from [Docker hub](https://hub.docker.com/r/iqbalaprysh/iqbal-govtech-test)
 
@@ -117,7 +107,14 @@ Pull images
 ```
 docker pull iqbalaprysh/iqbal-govtech-test
 ```
-Run in [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+Then run with the following commands,
+
+```
+docker run -it iqbalaprysh/iqbal-govtech-test:12.5.1
+```
+
+You can Run in [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 
 __Result__ : 
